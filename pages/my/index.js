@@ -30,7 +30,8 @@ Page({
   aboutUs : function () {
     wx.showModal({
       title: '关于我们',
-      content: '本系统基于开源小程序商城系统 https://github.com/EastWorld/wechat-app-mall 搭建，祝大家使用愉快！',
+      // content: '本系统基于开源小程序商城系统 https://github.com/EastWorld/wechat-app-mall 搭建，祝大家使用愉快！',
+      content: '珍膳品是一家10多年经营滋补品的批发传统老店品牌，如果需要长期合作请加微信18899840789，谢谢！',
       showCancel:false
     })
   },
